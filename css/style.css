@@ -11,11 +11,14 @@ body {
     display: flex;
     align-items: center;
 
-    flex: auto;
     height: 1000px;
     min-width: 1000px;
 
+    border-radius: 20px;
     margin: 75px 300px;
+
+    /* Allows border-radius to be 'inherited' */
+    overflow: hidden;
 
     background-color: #eee;
 }
@@ -54,3 +57,71 @@ body {
     padding: 20px;
 }
 
+form {
+    display: flex;
+    flex-flow: column;
+
+    height: 100%;
+}
+
+form .formDescription,
+form .submitContainer {
+    flex: 1 0 0;
+}
+
+.formDescription,
+.submitContainer {
+    background-color: #aaa;
+}
+
+.formDescription {
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+
+    padding: 0 200px 50px 50px;
+}
+
+.formDescription p {
+    padding: 0;
+}
+
+.formContainer {
+    display: flex;
+    flex-flow: column;
+
+    justify-content: space-around;
+
+    padding: 30px 50px;
+    gap: 20px;
+}
+
+.formContainer p {
+    margin: 0;
+}
+
+.formRow {
+    display: flex;
+    gap: 70px;
+}
+
+.formRow input {
+    display: block;
+}
+
+.submitContainer {
+    padding: 30px 0 0 50px;
+}
+
+.submitContainer button {
+    background-color: brown;
+    color: #eee;
+
+    font-size: 1.1em;
+    font-weight: 800;
+
+    padding: 15px 50px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
