@@ -37,7 +37,8 @@ body {
     height: 100%;
 
     /* placeholder styles */
-    background-color: #CCC;
+    background: url("../img/brecht-denil-The\ interior\ of\ a\ car\ with\ a\ steering\ wheel\ and\ dashboard-unsplash.jpg");
+    background-size: cover;
 }
 
 .logoContainer{
@@ -48,7 +49,7 @@ body {
     margin-top: 200px;
 
     /* placeholder styles */
-    background-color: rgba(89, 89, 89, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logoContainer h1 {
