@@ -7,6 +7,27 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -84,6 +105,10 @@ form {
 
     flex: 1;
     height: 100%;
+
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 form .formDescription,
@@ -93,7 +118,7 @@ form .submitContainer {
 
 .formDescription,
 .submitContainer {
-    background-color: #aaa;
+    background-color: #ddd;
 }
 
 .formDescription {
@@ -101,7 +126,7 @@ form .submitContainer {
     flex-flow: column;
     justify-content: end;
 
-    padding: 0 200px 50px 50px;
+    padding: 0 150px 20px 50px;
 }
 
 .formDescription p {
@@ -116,6 +141,16 @@ form .submitContainer {
 
     padding: 30px 50px;
     gap: 20px;
+
+    background-color: #eee;
+}
+
+.formContainer p {
+    font-weight: 500;
+}
+
+.formContainer label {
+    font-size: 12px;
 }
 
 .formContainer p {
@@ -146,4 +181,8 @@ form .submitContainer {
     border: 0px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.submitContainer p {
+    font-weight: 400;
 }
