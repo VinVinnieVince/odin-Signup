@@ -63,7 +63,19 @@ body {
 .photoCredit {
     flex: 0;
     text-align: center;
-    padding: 20px;
+
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #eee;
+}
+
+.photoCredit a,
+.photoCredit a:hover,
+.photoCredit a:link,
+.photoCredit a:active,
+.photoCredit a:visited {
+    color: #eee;
 }
 
 form {
