@@ -31,6 +31,8 @@
 body {
     display: flex;
     justify-content: center;
+
+    background-color: #ffeee6;
 }
 
 .pageContainer {
@@ -114,11 +116,7 @@ form {
 form .formDescription,
 form .submitContainer {
     flex: 1 0 0;
-}
-
-.formDescription,
-.submitContainer {
-    background-color: #ddd;
+    background-color: #ffe6b3;
 }
 
 .formDescription {
@@ -142,7 +140,7 @@ form .submitContainer {
     padding: 30px 50px;
     gap: 20px;
 
-    background-color: #eee;
+    background-color: #fff7e6;
 }
 
 .formContainer p {
