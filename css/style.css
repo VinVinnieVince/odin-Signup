@@ -109,8 +109,6 @@ form {
     height: 100%;
 
     font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 700;
 }
 
 form .formDescription,
@@ -124,7 +122,10 @@ form .submitContainer {
     flex-flow: column;
     justify-content: end;
 
-    padding: 0 150px 20px 50px;
+    padding: 0 120px 20px 50px;
+
+    font-size: 23px;
+    font-weight: 500;
 }
 
 .formDescription p {
@@ -147,6 +148,7 @@ form .submitContainer {
 }
 
 .formContainer p {
+    font-size: 23px;
     font-weight: 500;
     margin: 0;
 }
@@ -187,7 +189,7 @@ form .submitContainer {
     background-color: rgba(204, 122, 0, 1);
     color: #eee;
 
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 800;
 
     padding: 15px 50px;
@@ -197,5 +199,6 @@ form .submitContainer {
 }
 
 .submitContainer p {
+    font-size: 18px;
     font-weight: 400;
 }
