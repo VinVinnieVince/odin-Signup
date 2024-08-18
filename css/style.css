@@ -145,16 +145,13 @@ form .submitContainer {
 
 .formContainer p {
     font-weight: 500;
+    margin: 0;
 }
 
 .formContainer label {
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 2px;
-}
-
-.formContainer p {
-    margin: 0;
 }
 
 .formRow {
