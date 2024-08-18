@@ -177,7 +177,7 @@ form .submitContainer {
 .formRow input:focus {
     outline: 0;
     border: 1px solid #ffcc00;
-    box-shadow: 0 0 10px #ffcc00;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
     transition: all 0.3s linear;
 }
 
