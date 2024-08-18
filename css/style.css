@@ -202,3 +202,13 @@ form .submitContainer {
     font-size: 18px;
     font-weight: 400;
 }
+
+.submitContainer p a {
+    text-decoration: none;
+    color: #995c00;
+    font-weight: 800;
+}
+
+.submitContainer p a:hover {
+    text-decoration: underline;
+}
