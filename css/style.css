@@ -151,6 +151,8 @@ form .submitContainer {
 
 .formContainer label {
     font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .formContainer p {
