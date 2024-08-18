@@ -193,6 +193,23 @@ form .submitContainer {
     transition: all 0.3s linear;
 }
 
+.formRow .isValid {
+    border: 1px solid #00cc00;
+    background-color: #ccffcc;
+}
+
+.formRow .isInvalid {
+    border: 1px solid #ff5050;
+    background-color: #ffcccc;
+}
+
+.formRow .errorMsg {
+    position: absolute;
+
+    font-size: 12px;
+    color: red;
+}
+
 .submitContainer {
     padding: 30px 0 0 50px;
 }
