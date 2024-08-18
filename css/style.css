@@ -68,7 +68,6 @@ body {
     flex: 0;
     text-align: center;
 
-    padding: 0 50px;
     margin-top: 200px;
 
     /* placeholder styles */
@@ -76,11 +75,24 @@ body {
 }
 
 .logoContainer h1 {
+    display: flex;
+    justify-content: center;
+
     font-family: 'PoiretOne', Arial, Helvetica, sans-serif;
     font-size: 100px;
     color: #eee;
 
     margin: 0;
+}
+
+svg {
+    color: #eee;
+    margin: 0;
+    padding: 0;
+
+    height: 100px;
+    width: 100px;
+    rotate: -90deg;
 }
 
 .photoCredit {
