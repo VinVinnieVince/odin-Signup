@@ -3,10 +3,6 @@
     src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf);
 }
 
-* {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
@@ -26,6 +22,10 @@
     src: url(../fonts/Roboto/Roboto-Bold.ttf);
     font-style: normal;
     font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
