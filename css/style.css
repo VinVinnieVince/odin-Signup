@@ -165,7 +165,20 @@ form .submitContainer {
 }
 
 .formRow input {
+    appearance: none;
     display: block;
+    font-size: 16px;
+    padding: 6px 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formRow input:focus {
+    outline: 0;
+    border: 1px solid #ffcc00;
+    box-shadow: 0 0 10px #ffcc00;
+    transition: all 0.3s linear;
 }
 
 .submitContainer {
