@@ -186,7 +186,7 @@ form .submitContainer {
 }
 
 .submitContainer button {
-    background-color: rgba(204, 122, 0, 1);
+    background-color: rgb(153, 92, 0, 0.8);
     color: #eee;
 
     font-size: 1.1em;
@@ -196,6 +196,16 @@ form .submitContainer {
     border: 0px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.submitContainer button:hover {
+    background-color: rgb(153, 92, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.submitContainer button:active {
+    background-color: rgb(153, 92, 0, 1);
 }
 
 .submitContainer p {
