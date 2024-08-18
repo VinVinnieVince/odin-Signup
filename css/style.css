@@ -184,10 +184,10 @@ form .submitContainer {
 }
 
 .submitContainer button {
-    background-color: brown;
+    background-color: rgba(204, 122, 0, 1);
     color: #eee;
 
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 800;
 
     padding: 15px 50px;
